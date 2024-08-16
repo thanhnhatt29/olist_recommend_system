@@ -14,22 +14,22 @@ This project builds a recommendation system for the Olist online sales platform 
 
 ## Steps
 ### 1. Data Cleaning
-Notebook: [`code/1data_cleaning.ipynb`]()
+Notebook: [`code/1data_cleaning.ipynb`](code/1data_cleaning.ipynb)
 
-This notebook perform data cleaning steps on the raw CSV files and store the cleaned data in the [`data/clean_data`]() folder.
+This notebook perform data cleaning steps on the raw CSV files and store the cleaned data in the [`data/clean_data`](data/clean_data) folder.
 
 ### 2. Exploratory Data Analysis (EDA)
-Notebook: [`code/2EDA.ipynb`]()
+Notebook: [`code/2EDA.ipynb`](code/2EDA.ipynb)
 
 This notebook perform exploratory data analysis (EDA) to better understand the data and identify important features.
 
 ### 3. Building Recommendation Model using Spark ALS
-Notebook: [`code/3spark_ALS.ipynb`]()
+Notebook: [`code/3spark_ALS.ipynb`](code/3spark_ALS.ipynb)
 
 This notebook use the Alternating Least Squares (ALS) algorithm from Spark to build the recommendation model.
 
 ### 4. Recommendation Function
-Notebook: [`code/4Recommend_function.ipynb`]()
+Notebook: [`code/4Recommend_function.ipynb`](code/4Recommend_function.ipynb)
 
 This notebook build recommendation functions based on the trained model.
 
@@ -58,10 +58,10 @@ This notebook build recommendation functions based on the trained model.
     jupyter notebook
     ```
 
-4. Open and run the notebooks in the [`code`]() folder.
+4. Open and run the notebooks in the [`code`](code) folder.
 
 ## Data
 The data used in this project is sourced from the [Kaggle Olist dataset](https://www.kaggle.com/olistbr/brazilian-ecommerce).
 
 ## Results
-The analysis stored in [`report`]() folder and model results are stored in the [`code/model`]() folder.
+The analysis stored in [`report`](report) folder and model results are stored in the [`code/model`](code/model) folder.
